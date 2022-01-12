@@ -1,0 +1,9 @@
+!.gitignore
+**/*.pyc
+**/.ropeproject
+*.un~
+*~
+.*.s[a-w][a-z]
+._*
+.DS_Store
+Icon

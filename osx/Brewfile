@@ -1,0 +1,12 @@
+brew 'openssl'
+
+brew 'dockutil'
+brew 'frum'
+brew 'git'
+brew 'keith/formulae/ghb'
+brew 'thefuck'
+brew 'tig'
+brew 'zsh'
+brew 'zsh-autosuggestions'
+brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'

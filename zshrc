@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/dj/.oh-my-zsh
+export DOTFILES="$(dirname "$(readlink "$HOME/.zshrc")")"
 
 DEFAULT_USER="dj"
 
@@ -11,8 +12,6 @@ ZSH_THEME="agnoster"
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 HYPHEN_INSENSITIVE="true"
-
-zstyle ':omz:update' mode reminder
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -33,7 +32,6 @@ plugins=(
   git
   bundler
   macos
-  rbenv
   zsh-autosuggestions
   gh
   thefuck
@@ -47,7 +45,6 @@ bindkey "^U" backward-kill-line
 bindkey "^X\x7f" backward-kill-line
 bindkey "^X^_" redo
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH=$PATH:$HOME/bin
-export RBENV_ROOT=/usr/local/var/rbenv
-eval "$(rbenv init -)"
+eval "$(frum init)"
+
+source /Users/dj/Work/dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

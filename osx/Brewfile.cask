@@ -1,0 +1,6 @@
+cask '1password'
+cask 'charles'
+cask 'google-chrome'
+cask 'slack'
+cask 'tuple'
+cask 'visual-studio-code'

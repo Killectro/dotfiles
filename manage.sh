@@ -2,7 +2,6 @@
 
 files=(\
   bin \
-  zshenv \
   zshrc \
 )
 
@@ -77,24 +76,6 @@ fi
 # Check whether the user is installing or removing
 if [[ $1 == "install" ]]; then
   install_links
-
-  echo "Copying iTerm plist"
-  cp iterm/com.googlecode.iterm2.plist  ~/Library/Preferences/
-
-  echo "Installing Xcode tools"
-  xcode-select --install
-
-  echo "Installing Homebrew"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
-  echo "Installing rbenv"
-  brew install rbenv
-
-  echo "Installing bundler"
-  gem install bundler
-
-  echo "Installing xcversion"
-  gem install xcode-install
 elif [[ $1 == "remove" ]]; then
   remove_links
 elif [[ $1 == "clean" ]]; then
