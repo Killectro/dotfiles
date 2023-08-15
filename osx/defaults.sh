@@ -448,7 +448,7 @@ defaults write com.apple.dt.Xcode DVTTextShowMinimap -bool false
 
 # Enable better core utilization from Swift build system
 # https://developer.apple.com/documentation/xcode-release-notes/xcode-13_2-release-notes
-defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
+# defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
 
 #
 # Third Party

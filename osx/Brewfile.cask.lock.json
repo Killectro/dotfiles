@@ -1,0 +1,60 @@
+{
+  "entries": {
+    "cask": {
+      "1password": {
+        "version": "7.9.2",
+        "options": {
+          "full_name": "1password"
+        }
+      },
+      "charles": {
+        "version": "4.6.2",
+        "options": {
+          "full_name": "charles"
+        }
+      },
+      "google-chrome": {
+        "version": "97.0.4692.99",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "slack": {
+        "version": "4.23.0",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.63.2",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
+      "tuple": {
+        "version": "0.93.0,2022-01-06,81f1eeba",
+        "options": {
+          "full_name": "tuple"
+        }
+      },
+      "sensiblesidebuttons": {
+        "version": "1.0.6",
+        "options": {
+          "full_name": "sensiblesidebuttons"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "monterey": {
+        "HOMEBREW_VERSION": "3.3.11",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "bee72b894eadd57090e62670e1f33c8a3c09cc07",
+        "CLT": "13.0.0.0.1.1627064638",
+        "Xcode": "13.2",
+        "macOS": "12.1"
+      }
+    }
+  }
+}

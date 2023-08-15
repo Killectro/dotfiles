@@ -2,6 +2,7 @@
 
 files=(\
   bin \
+  gitconfig \
   zshrc \
 )
 

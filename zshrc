@@ -48,3 +48,8 @@ bindkey "^X^_" redo
 eval "$(frum init)"
 
 source /Users/dj/Work/dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH="/opt/homebrew/opt/postgresql@12/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
